@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="../CSS/reserve.css">
+    <script src="../JAVASCRIPT/reserve.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-home">
+            <a href="home.html">HOME</a>
+        </div>
+        <div class="header-products">
+            <div class="dropdown">
+                <p>PRODUCTS</p>
+                <div class="dropdown-content">
+                  <a href="kawasaki.html">Kawasako</a>
+                  <a href="vixion.html">Vixian</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-gallery">
+            <a href="gallery.html">GALLERY</a>
+        </div>
+        <div class="header-reserve">
+            <a href="reserve.html">RESERVE</a>
+        </div>
+    </header>
+    <main>
+        <div class="main-form">
+            <form action="" method="GET" onsubmit="return submitForm(this)">
+                <div class="form-name">
+                    <label for="name">
+                        Name : 
+                    </label>
+                    <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+                </div>
+                <div class="form-phone">
+                    <label for="phone">
+                        Phone :
+                    </label>
+                    <input type="text" id="phone" name="phone" placeholder="Enter Phone Number"><br>
+                </div>
+                <div class="form-address">
+                    <label for="address">
+                        Address :
+                    </label>
+                    <textarea name="address" id="address" placeholder="Enter Address"></textarea>
+                </div>
+                <div class="form-product">
+                    <label for="products">
+                        Choose a Product :
+                    </label>
+                    <select name="products" id="products">
+                        <option value="Kawasaki Ninja 250 2021">Kawasaki Ninja 250 2021</option>
+                        <option value="Kawasaki W175">Kawasaki W175</option>
+                        <option value="Kawasaki ZX 10r 2021">Kawasaki ZX 10r 2021</option>
+                        <option value="Kawasaki Z H2 2021">Kawasaki Z H2 2021</option>
+                        <option value="All New Vixion Matte 2021">All New Vixion Matte 2021</option>
+                        <option value="All New Vixion Metallic Silver">All New Vixion Metallic Silver</option>
+                        <option value="All New Vixion Metallic Yellow">All New Vixion Metallic Yellow</option>
+                        <option value="All New Vixion Matte Blue">All New Vixion Matte Blue</option>
+                    </select>
+                </div>
+                <div class="form-quantity">
+                    <label for="quantity">
+                        Quantity :
+                    </label>
+                    <input type="text" id="quantity" name="quantity" placeholder="Enter Quantity"><br>
+                </div>
+                <div class="form-motorcolor">
+                    <label for="motorcolor">
+                        Choose a Color :
+                    </label>
+                    <select name="motorcolor" id="motorcolor">
+                        <option value="Red">Red</option>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                        <option value="Black">Black</option>
+                    </select>
+                </div>
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+            
+        </div>
+        
+    </main>
+    <footer>
+        <div class="aboutus">
+            <p>About Us</p>
+        </div>
+        <div class="footer-img">
+            <div class="footer-ig">
+                <a href="https://www.instagram.com"><img src="gambar/instagram.png" alt=""></a>
+            </div>
+            <div class="footer-twitter">
+                <a href="https://www.twitter.com"><img src="gambar/twitter.png" alt=""></a>
+            </div>
+            <div class="footer-fb">
+                <a href="https://www.facebook.com"><img src="gambar/facebook.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

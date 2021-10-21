@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:  rgba(58, 61, 61, 0.815);
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-home{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.header-home a{
+    text-decoration: none;
+    color: white;
+    font-family: fjalla;
+}
+
+@font-face {
+    font-family: fjalla;
+    src: url('../FjallaOne/FjallaOne.ttf');
+}
+
+.header-products{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: fjalla;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(58, 61, 61, 0.815);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(58, 61, 61, 0.815);
+    padding: 12px 8px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-gallery{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.header-gallery a{
+    text-decoration: none;
+    color: white;
+    font-family: fjalla;
+}
+
+.header-reserve{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.header-reserve a{
+    text-decoration: none;
+    color: white;
+    font-family: fjalla;
+}
+
+main{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 61, 61);
+    height: 1000px;
+}
+
+.vixion-text{
+    margin-top: 50px;
+    font-size: 70px;
+    margin-left: 50px;
+    color: white;
+    font-family: fjalla;
+}
+
+.vixion-img{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img1 img{
+    margin-left: 75px;
+    height: 210px;
+}
+
+.img2 img{
+    height: 210px;
+}
+
+.img3 img{
+    height: 210px;
+}
+
+.img4 img{
+    margin-right: 75px;
+    height: 210px;
+}
+
+.vixion-nama{
+    color: white;
+    font-family: fjalla;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nama1{
+    margin-left: 130px;
+}
+
+.nama4{
+    margin-right: 130px;
+}
+
+.desc-motor{
+    color: white;
+    font-family: fjalla;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc-motor1{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.desc-motor2{
+    margin-top: 20px;
+}
+
+.desc-motor3{
+    margin-top: 20px;
+}
+
+.desc-motor4{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+footer{
+    margin-top: 3px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: fjalla;
+    font-size: x-small;
+}
+
+.aboutus{
+    text-align: center;
+}
+
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

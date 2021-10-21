@@ -1,0 +1,2 @@
+added music in homepage
+CHROME doesn't support audio, please use another browser like edge to listen to the audio
